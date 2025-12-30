@@ -8,5 +8,6 @@ Uzun ve karmaşık linkleri uygulama üzerindeki textbox'a yapıştırarak tinyu
 • Tinyurl API
 
 ## Ekran Görüntüleri
-<img width="775" height="286" alt="image" src="https://github.com/user-attachments/assets/7f0af3df-27b5-48ff-8260-6973c1c63c28" />
+<img width="790" height="282" alt="image" src="https://github.com/user-attachments/assets/040b3d65-10cf-4583-9896-85ffa310bb12" />
+
 
