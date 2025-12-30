@@ -5,7 +5,7 @@ a = Analysis(
     ['url_shortener.py'],
     pathex=[],
     binaries=[],
-    datas=[('url.ico', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['url.ico'],
 )

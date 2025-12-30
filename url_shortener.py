@@ -24,7 +24,7 @@ def copy_to_clipboard():
 
 # GUI
 app_window = tk.Tk()
-app_window.title("URL Shortener")
+app_window.title("URL Shortener (beratcodes)")
 app_window.resizable(0,0)
 # ikon yolu otomatik bul
 base_dir = os.path.dirname(os.path.abspath(__file__))
