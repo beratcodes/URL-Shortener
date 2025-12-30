@@ -10,4 +10,3 @@ Uzun ve karmaşık linkleri uygulama üzerindeki textbox'a yapıştırarak tinyu
 ## Ekran Görüntüleri
 <img width="775" height="286" alt="image" src="https://github.com/user-attachments/assets/7f0af3df-27b5-48ff-8260-6973c1c63c28" />
 
-

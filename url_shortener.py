@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import messagebox
 import requests
 import pyperclip
+import os
 
 # FUNC
 def shorten_url():
@@ -22,13 +23,15 @@ def copy_to_clipboard():
     messagebox.showinfo("Copied","Short URL is copied.")
 
 # GUI
-# .ico file
-photo = tk.PhotoImage(file= "url.ico")
-
 app_window = tk.Tk()
 app_window.title("URL Shortener")
 app_window.resizable(0,0)
-app_window.iconphoto(True, photo)
+# ikon yolu otomatik bul
+base_dir = os.path.dirname(os.path.abspath(__file__))
+icon_path = os.path.join(base_dir, "url.ico")
+
+# .ico için DOĞRU yöntem
+app_window.iconbitmap(icon_path)
 
 # Entry, Label, Buttons
 long_label = tk.Label(app_window, text="Insert Long Link:")
